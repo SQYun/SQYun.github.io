@@ -4,7 +4,7 @@ var menu = [
         ['basicAcademy/layout_float_position/resume.html', '布局简历'],
         ['basicAcademy/js_16/js_16.html', '加减乘除']
     ],
-    ['设计学院',MVVM
+    ['MVVM设计学院',
         //
         // ['demo/component/101/index.html', '简易电子时钟'],
         // ['demo/component/201/index.html', '绘制七巧板'],
@@ -38,4 +38,4 @@ list = '<a href=\"https://github.com/SQYun/ife2018/tree/master/" target=\"_blank
 window.onload = function () {
     var listDom = document.getElementById('list');
     listDom.innerHTML= list;
-}
+};
