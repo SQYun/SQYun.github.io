@@ -46,7 +46,7 @@ for (var i = 0; i < menu.length; i++) {
     }
     list += '</div></div>';
 }
-list = '<a href=\"https://github.com/hollowtree\" target=\"_blank\" class=\"github-link\"></a><div class="menu"><dl>' + list + '</dl></div>';
+list = '<a href=\"https://github.com/SQYun/SQYun.github.io/tree/master/ife" target=\"_blank\" class=\"github-link\"></a><div class="menu"><dl>' + list + '</dl></div>';
 window.onload = function () {
     var listDom = document.getElementById('list');
     listDom.innerHTML= list;
