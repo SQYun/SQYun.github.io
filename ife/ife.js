@@ -1,22 +1,10 @@
 var menu = [
-    ['基础学院',
-        ['demo/ife/task_1_01_1.html', 'HTML页面'],
-        ['demo/ife/task_1_03_1.html', '三栏式布局'],
-        ['components/csscenter/app/index.html', '定位及居中'],
-        ['demo/ife/task_1_08_1.html', '响应式网格布局'],
-        ['demo/ife/task_1_10_1.html', 'Flexbox布局'],
-        ['demo/ife/task_1_12_1.html', '一些CSS3新特性'],
-        ['demo/component/301/svg.html', 'SVG 初试'],
-        ['demo/ife/task_1_02_1.html', 'HTML+CSS页面Ⅰ'],
-        ['demo/ife/task_1_05_1.html', 'HTML+CSS页面Ⅱ'],
-        ['demo/pages/bootstrap/index.html', 'Bootstrap 初试'],
-        ['demo/ife/task_1_11_1.html', '自适应移动Web页面'],
-        ['demo/ife/task_1_06_1.html', '模拟报纸排版'],
-        ['demo/ife/task_1_09_1.html', '一个复杂页面'],
-        ['demo/pages/eleme/index.html', '仿饿了么首页'],
-        ['components/somecss3/app/index.html','Try CSS3']
+    ['零基础学院',
+        ['basicAcademy/beautifulWeb/index.html', '美丽的页面'],
+        ['basicAcademy/layout_float_position/resume.html', '布局简历'],
+        ['basicAcademy/js_16/js_16.html', '加减乘除']
     ],
-    ['设计学院',
+    ['设计学院',MVVM
         //
         // ['demo/component/101/index.html', '简易电子时钟'],
         // ['demo/component/201/index.html', '绘制七巧板'],
@@ -46,7 +34,7 @@ for (var i = 0; i < menu.length; i++) {
     }
     list += '</div></div>';
 }
-list = '<a href=\"https://github.com/SQYun/SQYun.github.io/tree/master/ife" target=\"_blank\" class=\"github-link\"></a><div class="menu"><dl>' + list + '</dl></div>';
+list = '<a href=\"https://github.com/SQYun/ife2018/tree/master/" target=\"_blank\" class=\"github-link\"></a><div class="menu"><dl>' + list + '</dl></div>';
 window.onload = function () {
     var listDom = document.getElementById('list');
     listDom.innerHTML= list;
